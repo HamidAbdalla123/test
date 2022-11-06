@@ -2,7 +2,7 @@ import xlsxwriter
 
 workbook = xlsxwriter.Workbook("/home/hamid/Documents/Excle/test.xlsx")
 
-worksheet = workbook.add_worksheet('My Test')
+worksheet = workbook.add_worksheet('My_Test')
 
 
 x = [2,4,6,8,10]
