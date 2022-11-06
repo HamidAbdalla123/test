@@ -5,7 +5,7 @@ workbook = xlsxwriter.Workbook("/home/hamid/Documents/Excle/test.xlsx")
 worksheet = workbook.add_worksheet('My Test')
 
 
-x = [1,2,3,4,5]
+x = [2,4,6,8,10]
 y = 0
 
 for i in range(5):
